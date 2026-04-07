@@ -13,17 +13,17 @@
 Структурированные данные (название фильма, год выпуска, оценка пользователя) в форматах Excel, CSV или JSON.
 
                                                                             Установка и запуск
-1.Установка зависимостей
+ 1.Установка зависимостей
 
 ```bash
 pip install cloudscraper beautifulsoup4 pandas openpyxl
 
-2.Запуск
+ 2.Запуск
 
 bash
 python letterboxd_parser.py rfeldman9 --format excel
 
-3.Использование в коде
+ 3.Использование в коде
 
 python
 from letterboxd_parser import collect_user_rates
@@ -31,8 +31,10 @@ from letterboxd_parser import collect_user_rates
 data = collect_user_rates('rfeldman9', save_format='excel')
 
                                                                                Пример результатов
+
 Входные данные
 Пользователь: rfeldman9
+
 
 Выходные данные (Excel-файл)
 название	год	рейтинг
