@@ -14,12 +14,17 @@
 
                                                                             Установка и запуск
 1.Установка зависимостей
+
 ```bash
 pip install cloudscraper beautifulsoup4 pandas openpyxl
+
 2.Запуск
+
 bash
 python letterboxd_parser.py rfeldman9 --format excel
+
 3.Использование в коде
+
 python
 from letterboxd_parser import collect_user_rates
 
